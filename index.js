@@ -60,7 +60,7 @@ lightAccessory.getService(Service.Lightbulb).addCharacteristic(Characteristic.Hu
     });
 
 lightAccessory.publish({
-    port: 51826,
+    port: process.env.PORT || 51826,
     username: lightAccessory.username,
     pincode: lightAccessory.pincode
 });
