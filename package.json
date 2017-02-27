@@ -1,6 +1,6 @@
 {
   "name": "homekit-ws2801",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "HomeKit accessory for WS2801 LED strips.",
   "main": "index.js",
   "engines": {
