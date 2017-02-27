@@ -24,5 +24,12 @@
   "bugs": {
     "url": "https://github.com/Will-tm/homekit-ws2801/issues"
   },
-  "homepage": "https://github.com/Will-tm/homekit-ws2801"
+  "homepage": "https://github.com/Will-tm/homekit-ws2801",
+  "keywords": [
+    "homekit",
+    "ws2801",
+    "rpi",
+    "raspberry",
+    "hap-nodejs"
+  ],
 }
