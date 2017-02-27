@@ -52,3 +52,17 @@ Use [PM2](https://github.com/Unitech/pm2) to auto start your accessory :
     
     # Save current state
     pm2 save
+
+
+Configuration
+=============
+
+Everything that might need to be changed can be set using Node.js environment variables :
+
+| Variable | Description | Default value |
+| --- | --- | --- |
+| PORT | Default homekit port. Needs to be unique for every accessory running on the same device | 51826 |
+| LEDS_COUNT | LED strip pixels count | 100 |
+| ACCESSORY_NAME | Accessory default name | WS2801 Accessory |
+| ACCESSORY_PINCODE | Accessory PIN code | 000-00-000 |
+| ACCESSORY_USERNAME | Accessory mac address | eth0 mac address |
