@@ -1,0 +1,28 @@
+{
+  "name": "homekit-ws2801",
+  "version": "0.0.1",
+  "description": "HomeKit accessory for WS2801 LED strips.",
+  "main": "index.js",
+  "engines": {
+    "node": ">=4.3.2"
+  },
+  "dependencies": {
+    "hap-nodejs": "^0.4.21",
+    "macaddress": "^0.2.8",
+    "onecolor": "^3.0.4",
+    "rpi-ws2801": "^0.0.4"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Will-tm/homekit-ws2801.git"
+  },
+  "author": "William Markezana <william.markezana@me.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Will-tm/homekit-ws2801/issues"
+  },
+  "homepage": "https://github.com/Will-tm/homekit-ws2801"
+}
